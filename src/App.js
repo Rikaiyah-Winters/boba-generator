@@ -20,6 +20,7 @@ function App() {
       <label for="YES">YES</label><br></br>
       <input type="radio" id="no" name="topping_answer" value="NO"></input>
       <label for="NO">NO</label><br></br>
+      <button>Generate a Boba Drink!</button>
     </div>
   );
 }
