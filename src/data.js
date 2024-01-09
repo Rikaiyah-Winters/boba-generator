@@ -14,3 +14,20 @@ const milkTea = [
     "Vanilla",
     "Avocado"
 ]
+
+const fruitTea = [
+    "Lychee",
+    "Mango",
+    "Peach",
+    "Grape",
+    "Rose",
+    "Lavender",
+    "Pineapple",
+    "Strawberry",
+    "Green Apple",
+    "Grapefruit",
+    "Passion Fruit",
+    "Watermelon",
+    "Original Lemonade",
+    "Blueberry"
+]
