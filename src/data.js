@@ -1,4 +1,4 @@
-const milkTea = [
+const milkTeaFlavors = [
     "Sun's",
     "Classic",
     "Black Sugar",
@@ -15,7 +15,7 @@ const milkTea = [
     "Avocado"
 ]
 
-const fruitTea = [
+const fruitTeaLemonadeFlavors = [
     "Lychee",
     "Mango",
     "Peach",
@@ -31,3 +31,16 @@ const fruitTea = [
     "Original Lemonade",
     "Blueberry"
 ]
+
+const smoothieFlavors = [
+    "Mango",
+    "Banana",
+    "Oreo",
+    "Pineapple",
+    "Strawberry",
+    "Blueberry",
+    "Avocado",
+    "Matcha",
+    "Taro",
+    "Red Bean"
+] 
