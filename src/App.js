@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <h1>Boba Generator🧋</h1>
+      {/*Consider placing both buttons together instead of separate like they are now*/}
       <button class="random-drink-button" type="button">Give Me A Random Drink!</button>
       <h2>OR Give Some Prefrences to Make a Drink</h2>
       <h3>Choose a Drink Category</h3>
