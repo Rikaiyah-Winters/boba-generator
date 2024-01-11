@@ -43,4 +43,13 @@ const smoothieFlavors = [
     "Matcha",
     "Taro",
     "Red Bean"
-] 
+]
+
+const toppings = [
+    "Black Boba",
+    "Crystal Boba",
+    "Bursting Boba",
+    "Flavor Jelly",
+    "Rainbow Jelly",
+    "Taro"
+]
