@@ -5,9 +5,7 @@ function App() {
   return (
     <div className="App">
       <h1>Boba Generator🧋</h1>
-      {/*Consider placing both buttons together instead of separate like they are now*/}
-      <button class="random-drink-button" type="button">Give Me A Random Drink!</button>
-      <h2>OR Give Some Prefrences to Make a Drink</h2>
+      <h2>Give Some Prefrences to Make a Drink</h2>
       <h3>Choose a Drink Category</h3>
       <select name="drink-categories" id="drink-categories">
         <option value="milk tea">Milk Tea</option>
@@ -22,6 +20,8 @@ function App() {
       <input type="radio" id="no" name="topping_answer" value="NO"></input>
       <label for="NO">NO</label><br></br>
       <button class="customized-drink-button">Generate a Boba Drink!</button>
+      <h3>OR</h3>
+      <button class="random-drink-button" type="button">Give Me A Random Drink!</button>
     </div>
   );
 }
