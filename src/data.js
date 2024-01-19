@@ -1,4 +1,4 @@
-const milkTeaFlavors = [
+export const milkTeaFlavors = [
     "Sun's",
     "Classic",
     "Black Sugar",

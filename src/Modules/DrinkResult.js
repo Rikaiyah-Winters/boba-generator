@@ -1,7 +1,9 @@
 import React from "react";
 
-const DrinkResult = () => (
-    <p class="drink-result hide"></p>
-);
+const DrinkResult = () => {
+return (
+    <p className="drink-result"></p>
+)
+};
 
 export default DrinkResult
