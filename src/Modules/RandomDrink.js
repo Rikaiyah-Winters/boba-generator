@@ -1,9 +1,14 @@
-import React from "react";
+{/*import React from "react";
+import { milkTeaFlavors } from "../data";
 
 const RandomDrink = () => {
+    const milkteaFlavorGenerator = () => {
+        let randomIndex = Math.floor(Math.random() * milkTeaFlavors.length);
+        return milkTeaFlavors[randomIndex];
+    };
+
     return (
-        <button class="random-drink-button" type="button">Give Me A Random Drink!</button>
+
     );
 };
-
-export default RandomDrink
+export default RandomDrink*/}

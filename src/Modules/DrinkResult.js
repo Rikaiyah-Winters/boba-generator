@@ -1,9 +1,11 @@
-import React from "react";
+{/*import React from "react";
+import RandomDrink from "./RandomDrink";
 
 const DrinkResult = () => {
+    const randomDrinkName = 
 return (
-    <p className="drink-result"></p>
+
 )
 };
 
-export default DrinkResult
+export default DrinkResult*/}
