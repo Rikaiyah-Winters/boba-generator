@@ -1,18 +1,18 @@
 export const milkTeaFlavors = [
-    "Sun's",
-    "Classic",
-    "Black Sugar",
-    "Taro",
-    "Mango",
-    "Coconut",
-    "Matcha",
-    "Thai Tea",
-    "Red Bean",
-    "Strawberry",
-    "Honeydew",
-    "Pineapple",
-    "Vanilla",
-    "Avocado"
+    "Sun's Milk Tea",
+    "Classic Milk Tea",
+    "Black Sugar Milk Tea",
+    "Taro Milk Tea",
+    "Mango Milk Tea",
+    "Coconut Milk Tea",
+    "Matcha Milk Tea",
+    "Thai Tea Milk Tea",
+    "Red Bean Milk Tea",
+    "Strawberry Milk Tea",
+    "Honeydew Milk Tea",
+    "Pineapple Milk Tea",
+    "Vanilla Milk Tea",
+    "Avocado Milk Tea"
 ]
 
 const fruitTeaLemonadeFlavors = [
@@ -32,6 +32,11 @@ const fruitTeaLemonadeFlavors = [
     "Blueberry"
 ]
 
+/*const fruitTeaFlavors = fruitTeaLemonadeFlavors.map(funcition (flavor) {
+    return : `${flavor} Tea`
+});*/
+
+
 const smoothieFlavors = [
     "Mango",
     "Banana",
@@ -45,11 +50,14 @@ const smoothieFlavors = [
     "Red Bean"
 ]
 
-const toppings = [
+export const toppings = [
     "Black Boba",
     "Crystal Boba",
     "Bursting Boba",
     "Flavor Jelly",
     "Rainbow Jelly",
-    "Taro"
+    "Taro",
+    "No Toppings"
 ]
+
+export const randomButtonDrinks = [...milkTeaFlavors, ...fruitTeaLemonadeFlavors, ...smoothieFlavors]
