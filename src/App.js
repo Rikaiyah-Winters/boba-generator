@@ -15,7 +15,7 @@ class App extends Component {
     topping: "",
   };
 
-  generateMilkTeaFlavor = () => {
+  generateRandomFlavor = () => {
     let randomIndex = Math.floor(Math.random() * randomButtonDrinks.length);
     let newFlavor = randomButtonDrinks[randomIndex];
     this.setState({ flavor: newFlavor });
@@ -50,7 +50,7 @@ class App extends Component {
         </form>
         <button class="customized-drink-button">Generate a Boba Drink!</button>
         <h3>OR</h3>
-        <button class="random-drink-button" onClick={this.generateMilkTeaFlavor}>Give Me A Random Drink!</button>
+        <button class="random-drink-button" onClick={this.generateRandomFlavor}>Give Me A Random Drink!</button>
         <p className="drink-result">{this.state.flavor}, {this.state.topping}</p>
       </div>
     );
