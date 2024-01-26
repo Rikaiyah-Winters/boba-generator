@@ -73,16 +73,16 @@ export const fruitLemonadeFlavors = [
 
 
 export const smoothieFlavors = [
-    "Mango",
-    "Banana",
-    "Oreo",
-    "Pineapple",
-    "Strawberry",
-    "Blueberry",
-    "Avocado",
-    "Matcha",
-    "Taro",
-    "Red Bean"
+    "Mango smoothie",
+    "Banana smoothie",
+    "Oreo smoothie",
+    "Pineapple smoothie",
+    "Strawberry smoothie",
+    "Blueberry smoothie",
+    "Avocado smoothie",
+    "Matcha smoothie",
+    "Taro smoothie",
+    "Red Bean smoothie"
 ]
 
 export const toppings = [

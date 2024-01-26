@@ -4,11 +4,12 @@
 }
 
 .random-drink-button,
-.customized-drink-button {
+.customized-drink-button,
+.topping-button {
   background: #d62828;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 7.5px 16px;
   text-align: center;
   display: inline-block;
   font-size: 16px;
@@ -17,6 +18,10 @@
 
 .customized-drink-button {
   background: #003049;
+}
+
+.topping-button {
+  background: #8ecae6;
 }
 
 p {
