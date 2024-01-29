@@ -1,7 +1,8 @@
-{/*import React from "react";
+import React from "react";
 
-const Topping = () => (
-
+const Topping = (props) => (
+    <button class="topping-button" 
+    onClick={props.generateChosenTopping}>Press for a New Topping!</button>
 );
 
-export default Topping;*/}
+export default Topping;
