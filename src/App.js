@@ -18,18 +18,15 @@ class App extends Component {
       let randomIndex = Math.floor(Math.random() * milkTeaFlavors.length);
       let milkTeaFlavor = milkTeaFlavors[randomIndex];
       this.setState({ chosenFlavor: milkTeaFlavor });
-    }
-    if (event.target.value === "fruit tea") {
+    } else if (event.target.value === "fruit tea") {
       let randomIndex = Math.floor(Math.random() * fruitTeaFlavors.length);
       let fruitTeaFlavor = fruitTeaFlavors[randomIndex];
       this.setState({ chosenFlavor: fruitTeaFlavor });
-    }
-    if (event.target.value === "fruit lemonade") {
+    } else if (event.target.value === "fruit lemonade") {
       let randomIndex = Math.floor(Math.random() * fruitLemonadeFlavors.length);
       let fruitLemonadeFlavor = fruitLemonadeFlavors[randomIndex];
       this.setState({ chosenFlavor: fruitLemonadeFlavor });
-    }
-    if (event.target.value === "smoothie") {
+    } else if (event.target.value === "smoothie") {
       let randomIndex = Math.floor(Math.random() * smoothieFlavors.length);
       let smoothieFlavor = smoothieFlavors[randomIndex];
       this.setState({ chosenFlavor: smoothieFlavor });
