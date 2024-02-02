@@ -12,3 +12,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*@media only screen and (min-width:1200px) {
+  .info {
+    display: flex;
+  }
+};*/
+/*Try to adjust desktop on this page*/
+
