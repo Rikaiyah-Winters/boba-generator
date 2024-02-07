@@ -48,15 +48,17 @@ class App extends Component {
       <div className="App" >
         <h1>Boba Generator🧋</h1>
         <div className="info">
-          <h2>🩵 Change the drink category for a new, random drink in that category.</h2>
-          <h2>🩵Press topping button for a new random topping!</h2>
-          <DrinkCategories flavorGenerator={this.flavorGenerator} />
-          <Topping generateChosenTopping={this.generateChosenTopping} />
-        </div>
-        <div className="info">
-          <h3>{this.state.chosenFlavor}</h3>
-          <h3>🫧</h3>
-          <h3>{this.state.chosenTopping}</h3>
+          <div className="left">
+            <h2>🩵 Change the drink category for a new, random drink in that category.</h2>
+            <h2>🩵Press topping button for a new random topping!</h2>
+            <DrinkCategories flavorGenerator={this.flavorGenerator} />
+            <Topping generateChosenTopping={this.generateChosenTopping} />
+          </div>
+          <div className="right">
+            <h3>{this.state.chosenFlavor}</h3>
+            <h3>🫧</h3>
+            <h3>{this.state.chosenTopping}</h3>
+          </div>
         </div>
       </div>
     );

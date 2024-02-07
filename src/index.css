@@ -13,10 +13,23 @@ code {
     monospace;
 }
 
-/*@media only screen and (min-width:1200px) {
+
+@media only screen and (min-width:1200px) {
   .info {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
-};*/
+  .left,
+  .right {
+    width: 50%;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .right {
+    padding-top: 75px;
+  }
+};
 /*Try to adjust desktop on this page*/
 
