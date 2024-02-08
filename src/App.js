@@ -11,8 +11,6 @@ class App extends Component {
     chosenFlavor: "",
   };
 
-  //the customized button could be an unhide button!
-
   flavorGenerator = (event) => {
     if (event.target.value === "milk tea") {
       let randomIndex = Math.floor(Math.random() * milkTeaFlavors.length);
