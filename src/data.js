@@ -93,5 +93,3 @@ export const toppings = [
     "Rainbow Jelly",
     "Taro",
 ]
-
-export const randomButtonDrinks = [...milkTeaFlavors, ...fruitTeaFlavors, ...fruitLemonadeFlavors, ...smoothieFlavors]
