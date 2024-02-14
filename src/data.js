@@ -15,7 +15,7 @@ export const milkTeaFlavors = [
     "Avocado Milk Tea"
 ]
 
-/*const fruitTeaLemonadeFlavors = [
+const fruitTeaLemonadeFlavors = [
     "Lychee",
     "Mango",
     "Peach",
@@ -30,47 +30,15 @@ export const milkTeaFlavors = [
     "Watermelon",
     "Original Lemonade",
     "Blueberry"
-]*/
-
-export const fruitTeaFlavors = [
-    "Lychee Tea",
-    "Mango Tea",
-    "Peach Tea",
-    "Grape Tea",
-    "Rose Tea",
-    "Lavender Tea",
-    "Pineapple Tea",
-    "Strawberry Tea",
-    "Green Apple Tea",
-    "Grapefruit Tea",
-    "Passion Fruit Tea",
-    "Watermelon Tea",
-    "Original Lemonade Tea",
-    "Blueberry Tea"
 ]
 
-export const fruitLemonadeFlavors = [
-    "Lychee Lemonade",
-    "Mango Lemonade",
-    "Peach Lemonade",
-    "Grape Lemonade",
-    "Rose Lemonade",
-    "Lavender Lemonade",
-    "Pineapple Lemonade",
-    "Strawberry Lemonade",
-    "Green Apple Lemonade",
-    "Grapefruit Lemonade",
-    "Passion Fruit Lemonade",
-    "Watermelon Lemonade",
-    "Original Lemonade",
-    "Blueberry Lemonade"
-]
-//figure out a way to map over fruit tea/lemonade flavors to only writ an array of flavors then map
-//over them to add "Tea" and "Lemonade" to them, but for now just make another array for convenience
-/*const fruitTeaFlavors = fruitTeaLemonadeFlavors.map(funcition (flavor) {
-    return : `${flavor} Tea`
-});*/
+export const fruitTeaFlavors = fruitTeaLemonadeFlavors.map(function (flavor) {
+    return `${flavor} Tea`;
+});
 
+export const fruitLemonadeFlavors = fruitTeaLemonadeFlavors.map(function (flavor) {
+    return `${flavor} Lemonade`;
+});
 
 export const smoothieFlavors = [
     "Mango smoothie",
