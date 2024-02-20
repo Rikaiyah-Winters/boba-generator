@@ -13,6 +13,7 @@ code {
     monospace;
 }
 
+/*desktop media query only seems to work here in index.css*/
 @media only screen and (min-width:1200px) {
   .info {
     display: flex;
